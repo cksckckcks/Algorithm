@@ -5,9 +5,9 @@
 using namespace std;
 
 queue <pair<int, int>> q;
-int arr[102][102] = { 0, };
-bool visited[102][102] = { 0, };
-int path[102][102] = { 0, };
+int arr[101][101] = { 0, };
+bool visited[101][101] = { 0, };
+int path[101][101] = { 0, };
 int N, M, minPath = 100000;
 
 void bfs(int x, int y) {
