@@ -2,9 +2,6 @@ import java.util.Scanner;
 import java.lang.String;
 
 public class Main {
-    private static void getStr(int[][] arr, String str, int x, int y) {
-
-    }
     public static void main(String[] args) {
         int [][]dp;
 
