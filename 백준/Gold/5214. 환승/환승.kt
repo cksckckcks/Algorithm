@@ -3,7 +3,7 @@ import java.util.LinkedList
 fun main() {
     val (n, k, m) = readln().split(" ").map { it.toInt() }
     val hyperTubes = Array(m) {
-        readln().split(" ").map { it.toInt() }.toSet()
+        readln().split(" ").map { it.toInt() }
     }
     val stations = Array(n + 1) { mutableListOf<Int>() }
 
