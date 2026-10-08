@@ -36,6 +36,9 @@ class Solution {
         return intArrayOf(dp[target].first, dp[target].second)
     }
     
-    fun max(a: Pair<Int, Int>, b: Pair<Int, Int>) 
-        = if(a.first < b.first) a else if(a.first == b.first && a.second > b.second) a else b
+    fun max(a: Pair<Int, Int>, b: Pair<Int, Int>) = when {
+        a.first < b.first -> a
+        a.first == b.first && a.second > b.second -> a
+        else -> b
+    }
 }
